@@ -6,6 +6,9 @@
 
 Ensemble methods are commonly used to boost predictive accuracy by combining the predictions of multiple machine learning models. The traditional approach has been to combine so-called “weak” learners. However, the latest approach is to create an ensemble of a well-chosen collection of strong yet diverse models.
 
+![ensemble1](https://user-images.githubusercontent.com/81983943/145534864-65a5cfbd-3e19-4dec-a626-34af824c059e.png)
+
+
 # Voting-Classifier:
 
 Voting is the easiest way of aggregating/combining predictions from different machine learning algorithms. Voting Classifier is not an actual classifier but it uses a majority vote (Hard Vote)or the average predicted probabilities (soft vote) to predict the class labels. Such a classifier can be useful for a set of equally well performing model in order to balance out their individual weaknesses.
