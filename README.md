@@ -45,6 +45,6 @@ p(1)=(0.1+0.2+0.6)/3=0.3
 Since the probability of class 0 is the highest which is 0.7, our final class will be ‘0’ based on the soft voting. Soft voting gives the better accuracy as it considers the actual probability of each class from the model output.
 
 # In Dataset-
-we have to predict human activity using mobile phones that he is sleeping, lying, sitting etc based on the some features.
+we have to predict human activity using mobile phones that he is sleeping, lying, sitting, standing, walking etc based on the some features.
 
-target variable's classes----->
+target variable's classes-----> ['LAYING', 'SITTING', 'STANDING', 'WALKING', 'WALKING_DOWNSTAIRS', 'WALKING_UPSTAIRS']
